@@ -85,6 +85,7 @@ public class StudentCourseInfo {
         // 1. Retrieve and display the name of the student, program, semester, and courses registered
         System.out.println("Student Details and Courses Registered:");
         for (Student s : students) {
+            System.out.println("students");
             System.out.println("student details");
             System.out.println("Name: " + s.getName());
             System.out.println("Program: " + s.getProgram());
